@@ -1,0 +1,48 @@
+/*Basic Styles*/
+* {margin: 0px; padding: 0px;}
+ 
+body {
+  background: #333;
+}
+
+
+
+/*Type*/
+h2 {
+  margin-top: 25px;
+  font: bold 30px Helvetica, Arila, sans-serif;
+  color: #000;
+}
+ 
+p {
+  font: 13px/1.5 Georgia, Times, serif;
+  color: #757575;
+}
+
+/*List Styles*/
+ul {
+  position: relative;
+  width: 800px;
+  height: 510px;
+  margin: 50px auto;
+  padding: 0;
+  list-style: none;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+
+
+ul li {
+  position: relative;
+  height: 100px;
+  padding: 20px;
+  background: #eee;
+  color: #252525;
+  z-index: 2;
+  overflow: auto;
+}
+
+ul li:nth-child(odd) {
+  background: #fff;
+}

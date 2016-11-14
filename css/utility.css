@@ -1217,7 +1217,19 @@ for icons
 .btn.btn-lg{
     min-width: 170px;
     letter-spacing: 2px;
-    padding: 20px 42px;
+    padding: 20px 180px;
+}
+
+.scroll{
+    max-height: 400px;
+    overflow: hidden;
+    overflow-y: auto;
+    overflow:auto;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
 }
 .btn.btn-md{
     min-width: 170px;
